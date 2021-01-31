@@ -30,7 +30,7 @@ entity Owner : managed {
     user : Association to User;
 }
 
-entity Order : managed {
+entity Orders : managed {
     key ID : Integer;
     restaurant: Association to Restaurant;
     amount: Decimal;
